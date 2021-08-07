@@ -14,3 +14,7 @@ sudo pacman -S git bc
 git clone https://github.com/sangnpq/pkgbuild-rtl8822cs.git
 cd pkgbuild-rtl8822cs
 makepkg
+
+3. Unlink
+rm <link>
+ln -s file1 link1
